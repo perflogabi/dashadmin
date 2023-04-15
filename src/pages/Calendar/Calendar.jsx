@@ -35,6 +35,7 @@ const Calendar = () => {
 
     const handleEventClick = (clickInfo) => {
         if (
+            // eslint-disable-next-line no-restricted-globals
             confirm('Are you sure you want to delete this event?')
 
         ) {

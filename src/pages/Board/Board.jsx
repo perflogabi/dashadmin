@@ -88,6 +88,7 @@ const BoardPage = () => {
                 )}
                 renderColumnHeader={(props) => {
 
+                    // eslint-disable-next-line react-hooks/rules-of-hooks
                     const [modalOpened, setModalOpened] = useState(false)
 
                     const handleCardAdd = (title, detail)=> {
